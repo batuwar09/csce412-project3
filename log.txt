@@ -1,0 +1,93 @@
+Enter minimum number of web servers: 10
+Enter maximum number of web servers: 20
+Enter high threshold for adding a server: 3
+Enter low threshold for removing a server: 1
+Enter simulation time in clock cycles: 10000
+LoadBalancer initialized with 10 servers.
+LoadBalancer started distributing requests.
+Request added: 230.120.130.109 -> 89.234.37.226 with processing time 2886 ms
+Request added: 21.170.117.178 -> 116.186.178.154 with processing time 2777 ms
+Request added: 208.88.12.38 -> 240.14.140.194 with processing time 3915 ms
+Request added: 83.49.148.252 -> 209.30.218.201 with processing time 3793 ms
+Checking if new server allocation is needed...
+Allocated new WebServer with ID 10
+Checking if server deallocation is needed...
+WebServer 10 stopped processing requests.
+WebServer 0 processing request from 230.120.130.109 to 89.234.37.226 with time 2886 ms
+WebServer 1 processing request from 21.170.117.178 to 116.186.178.154 with time 2777 ms
+WebServer 2 processing request from 208.88.12.38 to 240.14.140.194 with time 3915 ms
+WebServer 3 processing request from 83.49.148.252 to 209.30.218.201 with time 3793 ms
+Deallocated WebServer with ID 10
+Request added: 176.72.200.86 -> 11.134.187.72 with processing time 4386 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+Request added: 53.181.31.135 -> 117.124.178.11 with processing time 4649 ms
+Request added: 70.45.40.87 -> 205.3.64.73 with processing time 2421 ms
+Request added: 251.12.43.244 -> 207.228.191.164 with processing time 2362 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+WebServer 1 processing request from 70.45.40.87 to 205.3.64.73 with time 2421 ms
+WebServer 0 processing request from 176.72.200.86 to 11.134.187.72 with time 4386 ms
+Request added: 251.139.136.17 -> 94.182.154.179 with processing time 4690 ms
+Request added: 237.49.239.86 -> 201.117.3.165 with processing time 4059 ms
+Request added: 50.244.107.166 -> 246.57.151.211 with processing time 3763 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+WebServer 2 processing request from 251.12.43.244 to 207.228.191.164 with time 2362 ms
+Request added: 208.208.49.142 -> 84.158.133.196 with processing time 2540 ms
+Request added: 233.193.197.24 -> 140.147.50.77 with processing time 2426 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+Request added: 135.158.255.205 -> 109.196.143.185 with processing time 2736 ms
+Request added: 37.72.141.227 -> 115.200.60.135 with processing time 3211 ms
+Request added: 6.181.53.45 -> 185.28.190.243 with processing time 2368 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+WebServer 1 processing request from 237.49.239.86 to 201.117.3.165 with time 4059 ms
+Request added: 200.112.124.114 -> 251.101.30.3 with processing time 2429 ms
+Request added: 28.190.190.150 -> 94.180.117.227 with processing time 2782 ms
+Request added: 55.231.215.232 -> 247.3.250.115 with processing time 2530 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+WebServer 2 processing request from 50.244.107.166 to 246.57.151.211 with time 3763 ms
+Request added: 19.236.90.194 -> 137.141.133.232 with processing time 3123 ms
+Request added: 40.115.225.195 -> 80.218.31.21 with processing time 2067 ms
+Request added: 20.217.232.107 -> 52.195.201.136 with processing time 3135 ms
+Checking if new server allocation is needed...
+Checking if server deallocation is needed...
+WebServer 0 processing request from 53.181.31.135 to 117.124.178.11 with time 4649 ms
+Request added: 215.125.85.56 -> 210.234.190.7 with processing time 4802 ms
+Request added: 252.120.141.187 -> 185.147.109.2 with processing time 4022 ms
+Request added: 25.84.205.20 -> 87.140.47.101 with processing time 4058 ms
+Request added: 53.133.205.37 -> 156.44.62.106 with processing time 4069 ms
+Request added: 147.32.184.55 -> 74.66.212.124 with processing time 3167 ms
+Checking if new server allocation is needed...
+Allocated new WebServer with ID 10
+Checking if server deallocation is needed...
+WebServer 3 processing request from 53.133.205.37 to 156.44.62.106 with time 4069 ms
+WebServer 10 stopped processing requests.
+WebServer 4 processing request from 147.32.184.55 to 74.66.212.124 with time 3167 ms
+Deallocated WebServer with ID 10
+Dynamic request generation stopped.
+Queue size after processing: 0
+LoadBalancer stopped distributing requests.
+Final queue size: 0
+All requests processed, LoadBalancer stopped.
+Range of task times: [2067 ms, 4802 ms]
+WebServer 1 processing request from 233.193.197.24 to 140.147.50.77 with time 2426 ms
+WebServer 2 processing request from 6.181.53.45 to 185.28.190.243 with time 2368 ms
+WebServer 1 processing request from 37.72.141.227 to 115.200.60.135 with time 3211 ms
+WebServer 0 stopped processing requests.
+WebServer 2 processing request from 55.231.215.232 to 247.3.250.115 with time 2530 ms
+WebServer 1 stopped processing requests.
+WebServer 2 stopped processing requests.
+WebServer 3 stopped processing requests.
+WebServer 4 stopped processing requests.
+WebServer 5 stopped processing requests.
+WebServer 6 stopped processing requests.
+WebServer 7 stopped processing requests.
+WebServer 8 stopped processing requests.
+WebServer 9 stopped processing requests.
+Final queue size: 0
+All requests processed, LoadBalancer stopped.
+Range of task times: [2067 ms, 4802 ms]
