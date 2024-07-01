@@ -1,0 +1,249 @@
+:root {
+    --white: #e4d3d3;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.theme {
+    color: #e4d3d3;
+    background: #282928;
+}
+
+.abt {
+    position: absolute;
+    color: black;
+    background-color: #e4d3d3;
+    top: 1%;
+    left: 800px;
+    height: 25px;
+    display: flex;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;
+    text-align:center;
+    transition: all 0.2s;
+}
+.abt:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.abtme {
+    position: absolute;
+    color: black;
+    background-color: #e4d3d3;
+    top: 1%;
+    left: 1013px;
+    height: 25px;
+    display: flex;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;;
+    text-align:center;
+    transition: all 0.2s;
+}
+.abtme:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.btn {
+    position: absolute;
+    top: 1%;
+    left: 1300px;
+    height: 25px;
+    width: 120px;
+    color: #282928;
+    background-color: #e4d3d3;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;;
+    text-align:center;
+    transition: all 0.2s;
+}
+.btn:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.dark-theme {
+    color: #282928;
+    background: #e4d3d3;
+}
+
+button {
+    /* position: absolute; */
+    color: #282928;
+    background-color: #e4d3d3;
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+}
+
+.tips {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+
+.btnstyle{
+    position: absolute;
+    top: 1%;
+    left: 1420px;
+    height: 25px;
+    width: 120px;
+    color: #282928;
+    background-color: #e4d3d3;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;
+    text-align:center;
+    transition: all 0.2s;
+}
+.btnstyle:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.image2{
+    
+    position: absolute;
+    left: 5%;
+    top: 62%;
+}
+
+.image1{
+    position: absolute;
+    left: 65%;
+    top: 90%;
+}
+
+.tech{
+    position: absolute;
+    color: black;
+    background-color: #e4d3d3;
+    top: 1%;
+    left: 870px;
+    height: 25px;
+    display: flex;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;;
+    text-align:center;
+    transition: all 0.2s;
+}
+.tech:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.tamu {
+    position: absolute;
+    left: 5%;
+    top: 8px;
+}
+
+.h1{
+    border: black;
+    font-weight: 10;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45;
+}
+
+.h2{
+    position: absolute;
+    left: 35%;
+    top: 17%;
+}
+
+.skills{
+    position: absolute;
+    left: 3%;
+    top: 30%;
+}
+
+.service {
+    position: absolute;
+    left: 1128px;
+    top: 1%;
+    height: 25px;
+    display: flex;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#331a1a;;
+    text-align:center;
+    transition: all 0.2s;
+}
+.service:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+/* div{
+    border-style:solid;
+    border:10px #e4d3d3;
+    background-color: green;
+    padding: 5px;
+
+} */
+
+
+
+

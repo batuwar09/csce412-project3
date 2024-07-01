@@ -1,0 +1,169 @@
+:root {
+    --white: #d33a3a;
+    --black: #0a0950;
+}
+
+* {
+    color: var(--fontColor);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.theme {
+    color: var(--white);
+    background: var(--black);
+}
+
+.abt {
+    position: fixed;
+    color:var(--black);
+    background-color: var(--white);
+    top: 0px;
+
+    display: flex;
+}
+
+.abtme {
+    position: fixed;
+    color:var(--black);
+    background-color: var(--white);
+    top: 20px;
+
+    display: flex;
+}
+
+.btn {
+    position:fixed;
+    top: 82px;
+
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.dark-theme {
+    color: var(--white);
+    background: var(--black);
+}
+
+button {
+    /* position: absolute; */
+    color:var(--black);
+    background-color: var(--white);
+}
+
+.text {
+    position: absolute;
+    top: 105%;
+    left: 5%;
+}
+
+.tips {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+
+.btnstyle{
+    position: fixed;
+    top: 103px;
+    color:var(--black);
+    background-color: var(--white);
+}
+
+.image2{
+    
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.image1{
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    height:45%;
+}
+
+.tech{
+    position: fixed;
+    color:var(--black);
+    background-color: var(--white);
+    top: 40px;
+    display: flex;
+}
+
+.tamu {
+    position: absolute;
+    left: 75%;
+    top: 0%;
+}
+
+.h1{
+    border: black;
+    font-weight: 10;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+
+.h2{
+    position: absolute;
+    left: 15%;
+    top: 7%;
+}
+
+.skills{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.service {
+    position: fixed;
+    top: 60px;
+    display: flex;
+}
+
+.cooler-serviceh1{
+    position: absolute;
+    left: 25%;
+}
+
+.cooler-servicediv{
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.cooler-ul{
+    position: absolute;
+    left: 0%;
+    top: 25%;
+}
+
+.cooler-pdf{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 60%;
+}
+
+.cooler-qual{
+    position: absolute;
+    left: 45%;
+}
+
+img{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.unicefimg{
+    position: absolute;
+    height: auto;
+    top: 50%;
+}
